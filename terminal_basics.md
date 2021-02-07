@@ -11,6 +11,7 @@ pwd (print working directory)
 **Verzeichnis wechseln (runter):**
 
 cd (change directory)
+
 
 <br>
 
@@ -44,7 +45,7 @@ cd "Mein Ordner" ("können die Leerzeichen auch mit \ escaped werden)
 
 <br>
 
-**Verzeichnis erstellen:**
+**Verzeichnis/Ordner erstellen:**
 
 mkdir Ordnername (steht für make directory)
 
@@ -52,7 +53,16 @@ mkdir Ordnername (steht für make directory)
 
 **Verzeichnisinhalt anzeigen:**
 
-ls (steht für List)
+ls (steht für Liste)
+ls -la (genauere Auflistung)
+
+<br>
+
+
+**Neue Datei erstellen:**
+
+touch dateiname
+
 
 <br>
 
@@ -82,8 +92,26 @@ rm -d Mein\ Ordner
 <br>
 
 **Datei öffnen:**
+
 open dateiname (Datei wird im Programm geöffnet)
 
 nano dateiname (Datei wird im Terminal geöffnet)
+
+<br>
+
+**Anleitung anzeigen**
+
+man ls
+
+<br>
+
+**Auflistung**
+
+cat --> Auflistung, was in der Datei ist, ohne die Datei zu öffnen
+
+
+
+
+
 
 
